@@ -4,7 +4,7 @@ on:
   push:
   pull_request:
   schedule:
-  - cron: "0 */6 * * *" #  jam
+  - cron: "0 */1 * * *" #  jam
 jobs:
  python:
     strategy:
